@@ -1,19 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .nav {
-    padding-top: 25px;
-    padding-bottom: 25px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: #272032;
 }
 
 .link {
-  color: black;
-  padding: 5rem;
-  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size:15px;
+  font-family:JetBrains-Light;
+  padding-left:20px;
+  padding-right:30px;
 }
 
 .link:hover {
     color:aliceblue;
 }
 
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:25px;
+}
+
+.container,
+.logo {
+    font-family:JetBrains-Light;
+    color:white;
+    align-self:left;
+    font-size:15px;
+    margin-top:0;
+    padding-left:15px;
+}

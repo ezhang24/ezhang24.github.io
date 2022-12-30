@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #272032
 }
 
 a {
@@ -15,3 +16,17 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: JetBrains-Light;
+  src: url(../public/JetBrainsMono-Light.woff2);
+}
+
+@font-face {
+  font-family: JetBrains-Bold;
+  src: url(../public/JetBrainsMono-Bold.woff2);
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:wght@100&display=swap');
+}

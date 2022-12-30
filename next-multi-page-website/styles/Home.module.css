@@ -35,6 +35,11 @@
   align-items: center;
 }
 
+.heading {
+  font-family: JetBrains-Light;
+  font-size: 15px;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -49,17 +54,42 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 8rem;
+  color: white;
+  font-family: JetBrains-Bold;
 }
 
 .title,
 .description {
   text-align: center;
+  color: white;
 }
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 20px;
+  color: white;
+  font-family: JetBrains-Light;
+}
+
+.description_container {
+  width: 900px;
+  margin-bottom:30px;
+}
+
+.name_container {
+  color: white;
+  margin-bottom:30px;
+  line-height: 4;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 15px;
+  font-family: JetBrains-Light;
+  color: white;
+  border-style:solid;
+  font-size:15px;
 }
 
 .code {

@@ -14,3 +14,12 @@
   width:100px;
   height:100px;
 }
+
+.button {
+  border-radius: 6px;
+  padding: 15px;
+  font-family: JetBrains-Light;
+  color: white;
+  border-style:solid;
+  font-size:15px;
+}

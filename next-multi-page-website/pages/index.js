@@ -1,24 +1,22 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h3>
-          Hi, my name is
-        </h3>
-        <h1 className={styles.title}>
-          Emily Zhang.
-        </h1>
-        <p>
-          im an avid software engineer who enjoys ... currently i am interested in ...
+    <main className={styles.main}>
+      <div className={styles.name_container}>
+        <h3 className={styles.heading}>Hi, my name is</h3>
+        <h1 className={styles.title}>Emily Zhang</h1>
+      </div>
+      <div className={styles.description_container}>
+        <p className={styles.description}>
+          I'm an avid software engineer with a passion for learning new things
+          and creating technology that makes the world a more accessible place.
+          Currently, I've been interested in web development, robotics, and AI.
         </p>
-        <button>
-          Check out my projects!
-        </button>
-      </main>
-    </div>
-  )
+      </div>
+      <a className={styles.button} href='/about'>Learn more about me &rarr;</a>
+    </main>
+  );
 }

@@ -80,6 +80,7 @@ export default function Projects() {
                 <li>ROS</li>
                 <li>Virtual Machine</li>
             </ul>
+            <button>Continue to work experience</button>
         </div>
     )
 }
