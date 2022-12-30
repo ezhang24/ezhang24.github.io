@@ -4,12 +4,18 @@ import styles from '../styles/About.module.css'
 export default function About() {
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>
+            <h1 className={styles.title}>
                 About Me
-            </h2>
+            </h1>
             <p className={styles.description}>
-                silly little text about me
+                Hi there! My name is Emily and I enjoy ...
+                <br></br>
+                thsifisdif
+                <br></br>
+                add watch list. playlist.
             </p>
+            <img className={styles.img} src='me.jpg' alt='Bio Photo'>
+            </img>
         </div>
     )
 }
