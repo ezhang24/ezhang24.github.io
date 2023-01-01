@@ -1,15 +1,63 @@
 .container {
   text-align: center;
-  padding: 10rem;
+  width: 50rem;
+  margin: auto;
 }
+
+.card {
+  border-color: white;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  float: center;
+}
+
 .title {
-  font-size: 2rem;
+  text-align: left;
+  font-size: 3rem;
+  color: white;
 }
+
 .description {
   font-size: 1rem;
   line-height: 2rem;
+  color: white;
 }
 
 .project_titles {
   font-size: 2rem;
+  color: white;
+}
+
+.skills_title {
+  color: white;
+}
+
+.skills_container {
+  display: flex;
+}
+
+.skills_bubble {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: white;
+  background-color: gray;
+  color: white;
+  margin: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 15px;
+  font-family: JetBrains-Light;
+  color: white;
+  border-style: solid;
+  font-size: 15px;
 }
