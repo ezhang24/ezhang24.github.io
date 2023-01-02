@@ -9,12 +9,19 @@
   display: flex;
   width: 800px;
   margin: auto;
+  background-color: #332a3c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 4rem;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   text-align: left;
+  padding: 1rem;
+  font-family:Montserrat-Bold;
+  font-weight:900;
 }
 
 .description_container {
@@ -24,9 +31,10 @@
 .description {
   font-size: 1rem;
   line-height: 2rem;
-  color: white;
+  color: #ccc3d5;
   text-align: left;
   line-height: 35px;
+  font-family: Montserrat;
 }
 
 .img {

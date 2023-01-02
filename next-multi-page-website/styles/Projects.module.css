@@ -5,30 +5,37 @@
 }
 
 .card {
-  border-color: white;
+  border-color: #332a3c;
+  background-color: #332a3c;
   border-style: solid;
+  border-radius: 1rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5rem;
   margin-bottom: 3rem;
   float: center;
+  padding: 1rem;
 }
 
 .title {
   text-align: left;
   font-size: 3rem;
-  color: white;
+  color: #f5f3f7;
+  font-family: Montserrat-Bold;
+  font-weight: 900;
 }
 
 .description {
   font-size: 1rem;
+  font-family: Montserrat;
   line-height: 2rem;
-  color: white;
+  color: #ccc3d5;
 }
 
 .project_titles {
-  font-size: 2rem;
-  color: white;
+  font-size: 1.8rem;
+  color: #f5f3f7;
+  font-family:Montserrat-Bold;
 }
 
 .skills_title {
@@ -43,14 +50,16 @@
   border-style: solid;
   border-radius: 10px;
   border-width: 2px;
-  border-color: white;
-  background-color: gray;
+  border-color: #b8a9c6;
+  background-color: #b8a9c6;
   color: white;
-  margin: 15px;
+  margin-left: 15px;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
+  font-family: JetBrains-Light;
+  font-size: 0.9rem;
 }
 
 .button {

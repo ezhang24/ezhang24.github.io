@@ -22,22 +22,6 @@ export default function About() {
         </div>
         <img className={styles.img} src="me.jpg" alt="Bio Photo"></img>
       </div>
-      <div className={styles.topic_container}>
-        <h2 className={styles.topic}>Some Shows I've Watched</h2>
-        <ul className={styles.list}>
-          <li>The Good Place</li>
-          <li>Silicon Valley</li>
-          <li>The Queen's Gambit</li>
-          <li>Sky Castle</li>
-        </ul>
-      </div>
-      <div className={styles.topic_container}>
-        <h2 className={styles.topic}>Some Songs/Recipes/Artists/Restaurants I Like</h2>
-        <ul className={styles.list}>
-          <li>Yoshitomo Nara</li>
-          <li>Hebru Brantley</li>
-        </ul>
-      </div>
       <a className={styles.button} href='/projects'>Continue to projects &rarr;</a>
     </div>
   );
