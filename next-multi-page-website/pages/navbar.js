@@ -7,16 +7,16 @@ const Navbar = () => {
       <h2 className={styles.logo}>EZ</h2>
       <nav className={styles.nav}>
         <Link href="/" className={styles.link}>
-          01. Home
+          <span style={{ color: "#AA7DCE" }}>01. </span>Home
         </Link>
         <Link href="/about" className={styles.link}>
-          02. About
+          <span style={{ color: "#AA7DCE" }}>02. </span>About
         </Link>
         <Link href="/projects" className={styles.link}>
-          03. Projects
+          <span style={{ color: "#AA7DCE" }}>03. </span>Projects
         </Link>
         <Link href="/work" className={styles.link}>
-          04. Work Experience
+          <span style={{ color: "#AA7DCE" }}>04. </span>Work Experience
         </Link>
       </nav>
     </div>

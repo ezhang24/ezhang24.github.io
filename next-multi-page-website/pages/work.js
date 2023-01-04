@@ -10,7 +10,7 @@ export default function Work() {
           <div className={styles.icon}>
             <img src="google.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>Google STEP Intern</h2>
+          <h2 className={styles.company}>STEP Intern <span style={{ color: '#AA7DCE' }}>@ Google</span></h2>
           <h4 className={styles.location}>Kirkland, WA</h4>
           <h4 className={styles.time}>June 2022 - September 2022</h4>
           <ul className={styles.description}>
@@ -44,7 +44,7 @@ export default function Work() {
           <div className={styles.icon}>
             <img src="caltech.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>Caltech SURF</h2>
+          <h2 className={styles.company}>Undergraduate Research Student <span style={{ color: '#AA7DCE' }}>@ Caltech</span></h2>
           <h4 className={styles.location}>Pasadena, CA</h4>
           <h4 className={styles.time}>June 2021 - September 2021</h4>
           <ul className={styles.description}>
@@ -78,7 +78,7 @@ export default function Work() {
           <div className={styles.icon}>
             <img src="monogram.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>Monogram</h2>
+          <h2 className={styles.company}>EWAAB Intern <span style={{ color: '#AA7DCE' }}>@ Monogram</span></h2>
           <h4 className={styles.location}>Remote (Atlanta, GA)</h4>
           <h4 className={styles.time}>Mar 2021 - April 2021</h4>
           <ul className={styles.description}>

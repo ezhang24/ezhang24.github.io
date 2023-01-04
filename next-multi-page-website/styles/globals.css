@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+li {
+  padding-left:1rem;
+}
+
 @font-face {
   font-family: JetBrains-Light;
   src: url(../public/JetBrainsMono-Light.woff2);

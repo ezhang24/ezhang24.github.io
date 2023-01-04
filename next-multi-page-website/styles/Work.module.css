@@ -95,6 +95,7 @@
   line-height: 2rem;
   text-align: left;
   color: #ccc3d5;
+  list-style-type: '➤';
 }
 
 .skills_container {

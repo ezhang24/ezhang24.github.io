@@ -1,35 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 .nav {
-    text-align: center;
-    background-color: #272032;
+  text-align: center;
+  background-color: #272032;
 }
 
 .link {
   color: white;
-  font-size:15px;
-  font-family:JetBrains-Light;
-  padding-left:20px;
-  padding-right:30px;
+  font-size: 15px;
+  font-family: JetBrains-Light;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
 .link:hover {
-    color:aliceblue;
+  color: #aa7dce;
 }
 
 .container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top:25px;
+  padding-top: 25px;
 }
 
 .container,
 .logo {
-    font-family:JetBrains-Light;
-    color:white;
-    align-self:left;
-    font-size:15px;
-    margin-top:0;
-    padding-left:15px;
+  font-family: JetBrains-Light;
+  color: white;
+  align-self: left;
+  font-size: 15px;
+  margin-top: 0;
+  padding-left: 15px;
 }
