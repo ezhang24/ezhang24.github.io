@@ -1,11 +1,118 @@
 .container {
   text-align: center;
-  padding: 10rem;
+  width: 50rem;
+  margin: auto;
 }
+
 .title {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: #f5f3f7;
+  font-family: Montserrat-Bold;
+  text-align: left;
 }
+
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+  margin: 0 0 0 30px;
+  border-left: 2px solid white;
+}
+
+/* .timeline::before {
+  content:'';
+  position:absolute;
+  background-color: white;
+  left:50%;
+  top:0;
+  width:9px;
+} */
+
+/* .work_container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+} */
+
+.work_container {
+  position:relative;
+  margin-bottom:2.5rem;
+  margin-top:1.5rem;
+}
+
+.icon {
+  position: absolute;
+  left: -75px;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.icon_logo {
+  position: relative;
+  top:4px;
+  width:42px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.company {
+  font-family: Montserrat-Bold;
+  color: #f5f3f7;
+  text-align: left;
+}
+
+.location {
+  font-family: Montserrat;
+  color: #f5f3f7;
+  text-align: left;
+}
+
+.time {
+  font-family: JetBrains-Light;
+  color: #f5f3f7;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.link {
+  font-family: Montserrat;
+  color: #f5f3f7;
+  text-align: left;
+}
+
 .description {
   font-size: 1rem;
   line-height: 2rem;
+  text-align: left;
+  color: #ccc3d5;
+}
+
+.skills_container {
+  display: flex;
+}
+
+.skills_bubble {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #b8a9c6;
+  background-color: #b8a9c6;
+  color: white;
+  margin-left: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: JetBrains-Light;
+  font-size: 0.9rem;
 }
