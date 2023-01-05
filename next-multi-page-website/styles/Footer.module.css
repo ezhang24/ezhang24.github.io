@@ -1,0 +1,26 @@
+.container {
+    margin:0;
+    padding:0;
+}
+
+.media_container {
+    display:flex;
+    margin-top:4rem;
+    margin-bottom:2rem;
+    padding:0;
+    justify-content: center;
+}
+
+.list {
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.icon {
+    width:20px;
+}
+
+.icon:hover {
+    color:white;
+}
