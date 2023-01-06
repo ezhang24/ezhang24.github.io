@@ -11,6 +11,7 @@
   font-family: JetBrains-Light;
   padding-left: 20px;
   padding-right: 30px;
+  transition: 300ms;
 }
 
 .link:hover {

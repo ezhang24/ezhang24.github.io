@@ -1,16 +1,36 @@
 import React from "react";
 import styles from "../styles/Work.module.css";
+import { motion } from "framer-motion";
+
+const fadeIn = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+    },
+  },
+};
 
 export default function Work() {
   return (
-    <div className={styles.container}>
+    <motion.div
+      variants={fadeIn}
+      initial="initial"
+      animate="animate"
+      className={styles.container}
+    >
       <h1 className={styles.title}>Work Experience</h1>
       <div className={styles.timeline}>
         <div className={styles.work_container}>
           <div className={styles.icon}>
             <img src="google.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>STEP Intern <span style={{ color: '#AA7DCE' }}>@ Google</span></h2>
+          <h2 className={styles.company}>
+            STEP Intern <span style={{ color: "#AA7DCE" }}>@ Google</span>
+          </h2>
           <h4 className={styles.location}>Kirkland, WA</h4>
           <h4 className={styles.time}>June 2022 - September 2022</h4>
           <ul className={styles.description}>
@@ -44,7 +64,10 @@ export default function Work() {
           <div className={styles.icon}>
             <img src="caltech.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>Undergraduate Research Student <span style={{ color: '#AA7DCE' }}>@ Caltech</span></h2>
+          <h2 className={styles.company}>
+            Undergraduate Research Student{" "}
+            <span style={{ color: "#AA7DCE" }}>@ Caltech</span>
+          </h2>
           <h4 className={styles.location}>Pasadena, CA</h4>
           <h4 className={styles.time}>June 2021 - September 2021</h4>
           <ul className={styles.description}>
@@ -78,7 +101,9 @@ export default function Work() {
           <div className={styles.icon}>
             <img src="monogram.png" className={styles.icon_logo}></img>
           </div>
-          <h2 className={styles.company}>EWAAB Intern <span style={{ color: '#AA7DCE' }}>@ Monogram</span></h2>
+          <h2 className={styles.company}>
+            EWAAB Intern <span style={{ color: "#AA7DCE" }}>@ Monogram</span>
+          </h2>
           <h4 className={styles.location}>Remote (Atlanta, GA)</h4>
           <h4 className={styles.time}>Mar 2021 - April 2021</h4>
           <ul className={styles.description}>
@@ -102,6 +127,6 @@ export default function Work() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

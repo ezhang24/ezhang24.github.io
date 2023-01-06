@@ -1,9 +1,22 @@
 import React from "react";
 import styles from "../styles/Projects.module.css";
+import { motion } from "framer-motion";
+
+const fadeIn = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+    },
+  },
+};
 
 export default function Projects() {
   return (
-    <div className={styles.container}>
+    <motion.div variants={fadeIn} initial="initial" animate="animate" className={styles.container}>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.card}>
         <h2 className={styles.project_titles}>Portfolio Website</h2>
@@ -71,6 +84,6 @@ export default function Projects() {
         </div>
       </div>
       <a className={styles.button} href='/work'>Continue to work experience &rarr;</a>
-    </div>
+    </motion.div>
   );
 }

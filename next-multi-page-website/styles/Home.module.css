@@ -73,12 +73,12 @@
 
 .description_container {
   width: 900px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .name_container {
   color: white;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   line-height: 4;
 }
 
@@ -86,12 +86,13 @@
   border-radius: 6px;
   padding: 15px;
   font-family: JetBrains-Light;
-  color: #AA7DCE;
-  border-style:solid;
-  font-size:15px;
+  color: #aa7dce;
+  border-style: solid;
+  font-size: 15px;
+  transition: 300ms;
 }
 
 .button:hover {
-  background-color:#44364E;
+  background-color: #44364e;
   fill-opacity: 4;
 }
