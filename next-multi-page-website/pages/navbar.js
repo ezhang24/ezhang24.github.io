@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
-import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
