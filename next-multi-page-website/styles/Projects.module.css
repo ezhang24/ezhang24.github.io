@@ -1,20 +1,17 @@
 .container {
-  text-align: center;
-  width: 50rem;
+  width: 65rem;
   margin: auto;
+  text-align: center;
 }
 
 .card {
-  border-color: #332a3c;
-  background-color: #332a3c;
-  border-style: solid;
-  border-radius: 1rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5rem;
   margin-bottom: 3rem;
-  float: center;
   padding: 1rem;
+  display:flex;
+  justify-content: space-between;
 }
 
 .title {
@@ -25,25 +22,36 @@
   font-weight: 900;
 }
 
-.description {
-  font-size: 1rem;
-  font-family: Montserrat;
-  line-height: 2rem;
-  color: #ccc3d5;
+.project_container_right {
+  display:grid;
+  text-align: right;
+}
+
+.project_container_left {
+  text-align:left;
 }
 
 .project_titles {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #f5f3f7;
   font-family: Montserrat-Bold;
 }
 
-.skills_title {
-  color: white;
+.description {
+  width:30rem;
+  font-size: 0.9rem;
+  font-family: Montserrat;
+  line-height: 2rem;
+  color: #ccc3d5;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #332a3c;
+  background-color: #332a3c;
+  padding:1rem;
 }
 
 .skills_container {
-  display: flex;
+  display:flex;
 }
 
 .skills_bubble {
