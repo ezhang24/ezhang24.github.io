@@ -35,7 +35,7 @@
 .project_titles {
   font-size: 1.8rem;
   color: #f5f3f7;
-  font-family:Montserrat-Bold;
+  font-family: Montserrat-Bold;
 }
 
 .skills_title {
@@ -66,7 +66,13 @@
   border-radius: 6px;
   padding: 15px;
   font-family: JetBrains-Light;
-  color: white;
+  color: #aa7dce;
   border-style: solid;
   font-size: 15px;
+  transition: 300ms;
+}
+
+.button:hover {
+  background-color: #44364e;
+  fill-opacity: 4;
 }

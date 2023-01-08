@@ -12,7 +12,7 @@ const Footer = () => {
         <li className={styles.list}>
           <a href="https://github.com/ezhang24">
             <motion.img
-              whileHover={{ scale: 1.2 }}
+              whileHover={{ scale: 1.1 }}
               className={styles.icon}
               src="github.svg"
             ></motion.img>
@@ -21,7 +21,7 @@ const Footer = () => {
         <li className={styles.list}>
           <a href="https://www.linkedin.com/in/emily-zhang-2024/">
             <motion.img
-              whileHover={{ scale: 1.2 }}
+              whileHover={{ scale: 1.1 }}
               className={styles.icon}
               src="linkedin.svg"
             ></motion.img>
@@ -30,7 +30,7 @@ const Footer = () => {
         <li className={styles.list}>
           <a href="mailto: elzhang@caltech.edu">
             <motion.img
-              whileHover={{ scale: 1.2 }}
+              whileHover={{ scale: 1.1 }}
               className={styles.icon}
               src="email.svg"
             ></motion.img>

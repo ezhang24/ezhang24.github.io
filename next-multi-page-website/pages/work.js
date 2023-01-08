@@ -122,6 +122,7 @@ export default function Work() {
           </ul>
           <div className={styles.skills_container}>
             <p className={styles.skills_bubble}>Figma</p>
+            <p className={styles.skills_bubble}>Twilio</p>
             <p className={styles.skills_bubble}>NextJS</p>
             <p className={styles.skills_bubble}>Tailwind CSS</p>
           </div>
