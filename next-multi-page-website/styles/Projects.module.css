@@ -5,8 +5,6 @@
 }
 
 .card {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 2.5rem;
   margin-bottom: 3rem;
   padding: 1rem;
@@ -20,6 +18,13 @@
   color: #f5f3f7;
   font-family: Montserrat-Bold;
   font-weight: 900;
+}
+
+.image_container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:30rem;
 }
 
 .project_container_right {

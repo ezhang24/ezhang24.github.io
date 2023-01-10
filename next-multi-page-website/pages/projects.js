@@ -26,7 +26,8 @@ export default function Projects() {
       {/* <div className={styles.card}>
         <h2 className={styles.project_titles}>Sheets Engine</h2>
         <p className={styles.description}>
-
+          A sheets engine which implements
+          cycle detection,
         </p>
         <div className={styles.skills_container}>
           <p className={styles.skills_bubble}>Python</p>
@@ -47,7 +48,10 @@ export default function Projects() {
       </div> */}
 
       <div className={styles.card}>
-        <img style={{ width: "50%", height: "auto", filter: "saturate(40%)" }} src="portfolio.png"></img>
+        <img
+          style={{ width: "31rem", height: "auto", filter: "saturate(40%)" }}
+          src="portfolio.png"
+        ></img>
         <div className={styles.project_container_right}>
           <h2 className={styles.project_titles}>Portfolio Website</h2>
           <p className={styles.description}>
@@ -85,6 +89,20 @@ export default function Projects() {
       </div>
 
       <div className={styles.card}>
+        <div className={styles.image_container}>
+          <img
+            style={{
+              height: "18rem",
+              filter: "saturate(40%)",
+              padding: "1rem",
+            }}
+            src="chexpert.png"
+          ></img>
+          <img
+            style={{ height: "16rem", filter: "saturate(40%)" }}
+            src="frontal.png"
+          ></img>
+        </div>
         <div className={styles.project_container_right}>
           <h2 className={styles.project_titles}>CheXpert ML Interpretation</h2>
           <p className={styles.description}>
@@ -106,8 +124,12 @@ export default function Projects() {
         <div className={styles.project_container_left}>
           <h2 className={styles.project_titles}>Monkey Bar Robot</h2>
           <p className={styles.description}>
-            A robot with 42 degrees of freedom to move across monkey bars.
-            Worked to coordinate limbs by forward and backward kinematics.
+            A robot with 42 DOFs programmed to move across monkey bars. Computed
+            the inverse kinematics to create the arm motion and trajectory for
+            the fingers. Coordinated the kinematic chains with cubic splines
+            while moving the pelvis frame at a constant rate to simulate the
+            movement across the bars. Analyzed behavior between primary and
+            secondary tasks.
           </p>
           <div className={styles.skills_container}>
             <p className={styles.skills_bubble}>Python</p>
@@ -115,6 +137,13 @@ export default function Projects() {
             <p className={styles.skills_bubble}>VM</p>
             <p className={styles.skills_bubble}>Linux</p>
           </div>
+        </div>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <video
+            style={{ height: "17rem" }}
+            src="monkey_bar.mp4"
+            controls="controls"
+          ></video>
         </div>
       </div>
 
