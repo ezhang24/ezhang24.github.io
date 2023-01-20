@@ -26,13 +26,13 @@ export default function Projects() {
       {/* <div className={styles.card}>
         <h2 className={styles.project_titles}>Sheets Engine</h2>
         <p className={styles.description}>
-          A sheets engine which implements
-          cycle detection,
+          A spreadsheets engine built from scratch. The engine boosts functionality
+          such as cycle detection, formula evaluation, implicit conversions, etc.
         </p>
         <div className={styles.skills_container}>
           <p className={styles.skills_bubble}>Python</p>
           <p className={styles.skills_bubble}>Github</p>
-          <p className={styles.skills_bubble}>Pytest</p>
+          <p className={styles.skills_bubble}>Unittest</p>
         </div>
       </div> */}
 
@@ -134,7 +134,7 @@ export default function Projects() {
           <div className={styles.skills_container}>
             <p className={styles.skills_bubble}>Python</p>
             <p className={styles.skills_bubble}>ROS</p>
-            <p className={styles.skills_bubble}>VM</p>
+            <p className={styles.skills_bubble}>VirtualBox</p>
             <p className={styles.skills_bubble}>Linux</p>
           </div>
         </div>
@@ -148,6 +148,13 @@ export default function Projects() {
       </div>
 
       <div className={styles.card}>
+        <div className={styles.image_container}>
+          <img
+            style={{ height: "13rem", padding: "1rem" }}
+            src="param_tuning.png"
+          ></img>
+          <img style={{ height: "11rem" }} src="svd.png"></img>
+        </div>
         <div className={styles.project_container_right}>
           <h2 className={styles.project_titles}>ML Miniprojects</h2>
           <p className={styles.description}>
@@ -173,15 +180,25 @@ export default function Projects() {
           <h2 className={styles.project_titles}>Object Detection</h2>
           <p className={styles.description}>
             A gimbal built with a pan and tilt motor designed to detect and
-            follow an object's path. CADed Can also detect faces.
+            follow an object's path with a camera. Controlled with a Raspberry
+            Pi and CADed and 3D printed the L brackets to fit the motors and
+            screws. Configured to also detect faces.
           </p>
           <div className={styles.skills_container}>
-            <p className={styles.skills_bubble}>Python</p>
             <p className={styles.skills_bubble}>OpenCV</p>
             <p className={styles.skills_bubble}>OnShape</p>
             <p className={styles.skills_bubble}>Raspberry Pi</p>
-            <p className={styles.skills_bubble}>VM</p>
+            <p className={styles.skills_bubble}>RealVNC</p>
           </div>
+        </div>
+        <div className={styles.image_container}>
+          <video
+            style={{ height: "20rem", padding: "1rem" }}
+            src="gimbal_move.MOV"
+            controls="controls"
+          ></video>
+          <img style={{ height: "12rem" }} src="face.png">
+          </img>
         </div>
       </div>
 
