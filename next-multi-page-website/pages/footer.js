@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={styles.container}>
       <script
         src="https://kit.fontawesome.com/ddfeb5ea78.js"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       ></script>
       <ul className={styles.media_container}>
         <li className={styles.list}>

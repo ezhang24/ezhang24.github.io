@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.logo}>EZ</h2>
+      <img className={styles.logo} style={{ width: "2rem" }} src="face-id.png"></img>
       <nav className={styles.nav}>
         <Link href="/" className={styles.link}>
           <span style={{ color: "#AA7DCE" }}>01. </span>Home
