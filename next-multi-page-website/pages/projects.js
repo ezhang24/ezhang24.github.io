@@ -23,29 +23,50 @@ export default function Projects() {
       className={styles.container}
     >
       <h1 className={styles.title}>Projects</h1>
-      {/* <div className={styles.card}>
-        <h2 className={styles.project_titles}>Sheets Engine</h2>
-        <p className={styles.description}>
-          A spreadsheets engine built from scratch. The engine boosts functionality
-          such as cycle detection, formula evaluation, implicit conversions, etc.
-        </p>
-        <div className={styles.skills_container}>
-          <p className={styles.skills_bubble}>Python</p>
-          <p className={styles.skills_bubble}>Github</p>
-          <p className={styles.skills_bubble}>Unittest</p>
+      <div className={styles.card}>
+        <div className={styles.image_container}>
+          <img style={{ width: "31rem", height: "18rem" }} src="sheets_ui.png"></img>
         </div>
-      </div> */}
-
-      {/* <div className={styles.card}>
-        <h2 className={styles.project_titles}>Database Application</h2>
-        <p className={styles.description}>
-
-        </p>
-        <div className={styles.skills_container}>
-          <p className={styles.skills_bubble}>Python</p>
-          <p className={styles.skills_bubble}>SQL</p>
+        <div className={styles.project_container_right}>
+          <h2 className={styles.project_titles}>Sheets Engine</h2>
+          <p className={styles.description}>
+            A spreadsheets engine built from scratch. The engine boosts functionality
+            such as cycle detection, formula evaluation, sorting cell regions,
+            comparison operators, function calls, moving and copying cells,
+            renaming sheets, and loading/saving workbooks. Built tests
+            throughout the 10 week partner project for each newly added feature.
+          </p>
+          <div className={styles.skills_container}>
+            <p className={styles.skills_bubble}>Python</p>
+            <p className={styles.skills_bubble}>Github</p>
+            <p className={styles.skills_bubble}>Unittest</p>
+          </div>
         </div>
-      </div> */}
+
+      </div>
+
+      <div className={styles.card}>
+        <div className={styles.project_container_left}>
+          <h2 className={styles.project_titles}>Database Application</h2>
+          <p className={styles.description}>
+            A python client that enables users to make SQL queries to a large
+            WTA database including matches, players, and tournaments. Created
+            authentication for admins and clients and different UIs for each
+            (e.g. showing past tournament winners to users or updating player
+            information as an admin). Built a variety of functions, procedures,
+            and triggers in the SQL to handle inserting match results, return
+            score data, etc. with a partner.
+          </p>
+          <div className={styles.skills_container}>
+            <p className={styles.skills_bubble}>Python</p>
+            <p className={styles.skills_bubble}>SQL</p>
+            <p className={styles.skills_bubble}>Pandas</p>
+          </div>
+        </div>
+        <div className={styles.image_container}>
+          <img style={{ height: "23rem" }} src="database_ui.png"></img>
+        </div>
+      </div>
 
       <div className={styles.card}>
         <img
@@ -85,6 +106,12 @@ export default function Projects() {
             <p className={styles.skills_bubble}>Software Design</p>
             <p className={styles.skills_bubble}>GitLab</p>
           </div>
+        </div>
+        <div className={styles.image_container}>
+          <img
+            style={{ width: "30rem", height: "20rem" }}
+            src="doodle-jump.png"
+          ></img>
         </div>
       </div>
 

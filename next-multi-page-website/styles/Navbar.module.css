@@ -22,15 +22,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 25px;
-}
-
-.container,
-.logo {
+  align-items: center;
+  padding-top: 30px;
   font-family: JetBrains-Light;
   color: white;
-  align-self: left;
   font-size: 15px;
   margin-top: 0;
-  padding-left: 15px;
+  padding-left: 2rem;
+}
+
+.logo:hover {
+  filter: brightness(0) saturate(100%) invert(63%) sepia(9%) saturate(2481%) hue-rotate(227deg) brightness(88%) contrast(81%);
 }

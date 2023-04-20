@@ -8,8 +8,10 @@
   margin-top: 2.5rem;
   margin-bottom: 3rem;
   padding: 1rem;
-  display:flex;
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 80rem;
 }
 
 .title {
@@ -28,12 +30,11 @@
 }
 
 .project_container_right {
-  display:grid;
   text-align: right;
 }
 
 .project_container_left {
-  text-align:left;
+  text-align: left;
 }
 
 .project_titles {
